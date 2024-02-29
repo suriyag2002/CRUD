@@ -1,0 +1,78 @@
+/* Ensures the form is centered and styled */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input and select styling */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button styling */
+.form-group input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Fieldset adjustments for grouping and legend styling */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend {
+    padding-bottom: 10px;
+}
+
+/* Flex container for gender and course options, adjusted for vertical layout */
+.gender-options,
+.course-options {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    gap: 10px; /* Adds space between items vertically */
+}
+
+/* Inline label and input adjustments for vertical layout */
+.gender-options label,
+.course-options label {
+    margin: 0; /* Adjust or remove margin as needed for vertical layout */
+    display: block; /* Ensures label and input are on separate lines */
+}
+
+
+/* Adjusts margin for better alignment */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
